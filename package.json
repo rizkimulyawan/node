@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-service-teralibesi",
+  "version": "1.0.0",
+  "description": "WhatsApp Baileys Notification Bot for Bengkel Las Jasa Teknik",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.12",
+    "express": "^4.21.1",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
